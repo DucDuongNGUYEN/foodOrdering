@@ -1,4 +1,3 @@
-<<<<<<< Original
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -20,7 +19,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".IntroActivity"
+            android:name=".Intro_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,17 +41,3 @@
     </application>
 
 </manifest>
-=======
-
-    <manifest xmlns:android ="http://schemas.android.com/apk/res/android"
-    >
-    <application>
-    <activity android:name ="com.example.foodordering.MainActivity"
-    android:exported="false"
-    
-    >
-    <meta-data android:name="android.app.lib_name" android:value="" />
-    </activity>
-    </application>
-    </manifest>
-    >>>>>>> Added
